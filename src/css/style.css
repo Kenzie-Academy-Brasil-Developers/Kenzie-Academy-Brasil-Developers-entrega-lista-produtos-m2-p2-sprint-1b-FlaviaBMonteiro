@@ -1,0 +1,536 @@
+body {
+    font-family: 'Poppins';
+}
+
+/* CABEÇALHO */
+
+.logo {
+    width: 1171px;
+    margin-left: 146px;
+    text-align: center;
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212529;
+
+}
+header {
+    width: 1171px;
+    margin-top: 53px;
+    margin-left: 146px;
+}
+
+.filtersContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.estiloGeralBotoes{
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 14px 26px;
+    cursor: pointer;
+    display: block;
+    height: 52px;
+    
+}
+
+.estiloGeralBotoes:hover {
+    box-shadow: 13px 13px 13px 1px rgb(146 146 146);
+    transform: translate(0px, -10px);
+}
+
+
+.estiloGeralBotoes--mostrarTodos {
+    color: #FFFFFF;
+    background: #12B886;
+    border: 1.5px solid #12B886;
+    margin-right: 12px;
+    
+}
+
+.estiloGeralBotoes--filtrarHortifruti{
+    color: #12B886;
+    background: rgba(18, 184, 134, 0.05);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    margin-right: 12px;
+}
+
+ .estiloGeralBotoes--filtrarLaticinio {
+    color: #12B886;
+    background: rgba(18, 184, 134, 0.05);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    margin-right: 12px;
+}
+
+.estiloGeralBotoes--filtrarPanificadora{
+    color: #12B886;
+    background: rgba(18, 184, 134, 0.05);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    margin-right: 12px;
+}
+
+.containerBuscaPorNome {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin-left: auto;
+}
+
+.campoBuscaPorNome {
+    background: #F1F3F5;
+    border-radius: 8px;
+    border: 1px solid #F1F3F5;
+    padding: 0 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 14px 20px;
+    color: #515252;
+    margin-right: 9px;
+    width: 324px;
+}
+
+.estiloGeralBotoes--botaoBuscaPorNome {
+    color: #FFFFFF;
+    background: #12B886;
+    border: 1.5px solid #12B886;
+    border-radius: 8px;
+    padding: 12px 12px;
+    width: 59px;
+}
+
+
+/* CONTEÚDO */
+main {
+    width: 1171px;
+    margin-top: 44px;
+    margin-left: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+}
+
+
+/* PRODUTOS */
+
+
+.containerListaProdutos {
+    margin-top: 54px;
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+
+.containerListaProdutos ul {
+    list-style: none;
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.containerListaProdutos ul li {
+    color: black;
+    border-radius: 5px;
+    transition: ease-in-out .1s;
+}
+
+.containerListaProdutos li {
+    padding-bottom: 10px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+.containerListaProdutos ul li:hover {
+    box-shadow: 13px 13px 13px 1px rgb(146 146 146);
+    transform: translate(0px, -20px);
+    cursor: pointer;
+}
+
+.containerListaProdutos ul li img {
+    width: 274px;
+}
+
+
+.containerListaProdutos img {
+    height: 175px;
+    border-radius: 8px;
+}
+
+.containerListaProdutos h3 {
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px
+
+}
+
+.containerListaProdutos p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 16px;
+}
+.containerListaProdutos span {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 16px;
+   
+}
+
+.containerListaProdutos div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.containerListaProdutos h6 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 16px;
+   
+}
+
+.containerListaProdutos button {
+    color: #12B886;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(18, 184, 134, 0.05);
+    border: 1.5px solid rgba(18, 184, 134, 0.05);
+    border-radius: 8px;
+    width: 71px;
+    height: 29px;
+}
+
+.containerListaProdutos button:hover {
+    color:#FFFFFF;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    background: #12B886;
+    border: 1.5px solid #12B886;
+    border-radius: 8px;
+    width: 71px;
+    height: 29px;
+}
+
+
+/* Carrinho */
+.containerPrecoTotal{
+    margin-top: 54px;
+    width: 360px;
+    align-items: center;
+    font-weight: 400;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-sizing: border-box;  
+}
+
+
+.precoTotalTitulo {
+
+    display: flex;
+    color: #FFFFFF;
+    background: #12B886;
+    border: 1.5px solid #12B886;
+    border-radius: 12px 12px 0px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;  
+    padding: 15px 20px 11px;
+    
+}
+.precoTotalTitulo span {
+    margin-left: 5px;
+    text-align: left;
+
+}
+
+.precoTotalTitulo p {
+    text-align: right;
+    width: 100%;
+    margin-right: 50%;
+}
+
+
+
+.precoTotalDescricao {
+    color: #868E96;
+    font-size: 14px;
+    background: #F8F9FA;
+    border-radius: 0px 0px 0px 0px;
+    height: 200px;
+    max-height: 523px;
+    overflow-y: auto;
+}
+
+.precoTotalDescricaoImg img{
+    width: 50px;
+    text-align: center;
+    margin: 15% 40% 3%;
+    
+
+}
+
+.precoTotalDescricaoTexto {
+    color: #868E96;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.precoTotalDescricao{ 
+   color: #000000;
+  
+
+}
+/* Itens carrinho */
+.divCar {  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-top: 10px;
+  
+
+}
+
+.imagemCar {  
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.divCarConteudo { 
+    width: 100%;
+    height: 100%;
+    align-items: left;
+    padding-left: 12px;
+    display: inline;
+    justify-content:space-between;
+}
+
+.tituloCar { 
+    color: #000000;
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 5%;
+ 
+}
+.infoCar { 
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.precoCar { 
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+    width: 85.99px;
+    height: 24px;
+
+}
+.removerCar span{ 
+    color: #868E96;
+    size: 50px;
+    margin-right: 5px;
+  }
+
+.carrinho {
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    background: #F8F9FA;
+    padding-bottom: 30px;
+} 
+
+.qtdade { 
+    padding-top: 28px;
+    padding-left: 14px;
+    width: 100%;
+
+}
+.totalqtdade { 
+    padding-top: 28px;
+    padding-right: 14px;
+    width: 100%;
+    text-align: right;
+}
+
+.total { 
+    padding-left: 14px;
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.precoTotal{
+    text-align: right;
+    padding-top: 10px;
+    padding-left: 12px; 
+    padding-right: 14px;
+    width: 100%;
+}   
+
+
+
+@media (max-width: 480px) {
+
+    .logo {
+        max-width: 100%;
+        margin-left: 13px;
+        text-align: center;
+        margin-top: 14px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #212529;
+    
+    }
+
+    body {
+        max-width: 480px;
+        margin-left: 13px;
+        
+   
+    }
+
+    header {
+        max-width: 480px;
+        margin-left: 13px;
+        
+   
+    }
+
+    .filtersContainer {
+        display: inline;
+        margin-left: 0px;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        overflow-x: auto;
+        width: 90%;
+    }
+
+
+    .estiloGeralBotoes{
+        display: block;
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 14px 26px;
+        cursor: pointer;
+        display: block;
+        height: 52px;
+        min-width: 170px;
+        
+    
+    }
+
+    .estiloGeralBotoes--mostrarTodos {
+        color: #FFFFFF;
+        background: #12B886;
+        border: 1.5px solid #12B886;
+        margin-right: 12px;
+        min-width: 230px;
+    
+    }   
+
+        
+    main {
+        width: 480px;
+        height: 480px;
+        display: inline;
+        justify-content: left;
+        }
+
+    .containerListaProdutos {
+        margin-top: 20px;
+        height: 290px;
+        margin-left: 13px;
+    
+    }
+    .containerListaProdutos ul {
+        list-style: none;
+        width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        align-items: center;
+        overflow-x: auto;
+        
+    }
+
+    .containerListaProdutos h6 {
+        display: none;
+        
+    }
+
+    .containerBuscaPorNome {
+        display: flex;
+        justify-content: left;
+        align-items: right;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .campoBuscaPorNome {
+        width:300px;
+    }
+    
+    .estiloGeralBotoes--botaoBuscaPorNome {
+        color: #FFFFFF;
+        background: #12B886;
+        border: 1.5px solid #12B886;
+        border-radius: 8px;
+        padding: 12px 12px;
+        width: 59px;
+    }
+
+    .containerPrecoTotal{
+        width: 90%;
+      
+    }
+    
+}

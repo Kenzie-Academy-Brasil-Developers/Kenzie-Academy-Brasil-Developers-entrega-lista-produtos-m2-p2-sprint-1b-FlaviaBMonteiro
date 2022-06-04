@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+    <div class="logo">Shop Now</div>    
+    <header>    
+       
+        <div id="filters" class="filtersContainer">
+            <nav>
+                <button class="estiloGeralBotoes estiloGeralBotoes--mostrarTodos">Todos os Produtos</button>
+                <button class="estiloGeralBotoes estiloGeralBotoes--filtrarHortifruti">Hortifruti</button>
+                <button class="estiloGeralBotoes estiloGeralBotoes--filtrarPanificadora">Panificadora</button>
+                <button class="estiloGeralBotoes estiloGeralBotoes--filtrarLaticinio">Laticínio</button>
+            </nav>
+
+            <div class="containerBuscaPorNome">
+                <input type="text" placeholder="Pesquisar Por" class="campoBuscaPorNome">
+                <button class="estiloGeralBotoes--botaoBuscaPorNome">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+    
+    <main>
+    
+
+        <div class="containerListaProdutos" id="listProdutos">
+            <ul id="cardProdutos">
+            <!-- Utilize esse item html como template para a construção da lista de produtos -->
+
+            <!-- Você pode remover esses comentários depois que fizer a construção pelo DOM -->
+
+            <!--
+                <li>
+                    <img src="./src/img/maça.png" alt="Imagem maçã">
+                    <h3>Maçã</h3>
+                    <p>R$02.00</p>
+                    <h4> Potássio
+                    Vitamina B6
+                    Vitamina C
+                    Folatos</h4>
+
+                    <span>Seção - Hortifruti</span>
+                </li>
+            -->
+            </ul>
+        </div>
+
+        <div class="containerPrecoTotal">
+            <div class="precoTotalTitulo"> 
+                <span class="material-symbols-outlined">shopping_cart_checkout</span>
+                <p class="containerPrecoTotalTitulo">Carrinho</p>
+            </div>
+            <div class="precoTotalDescricao">
+                
+            </div>
+            <div>
+                <div class="carrinho">
+                    <p class="qtdade"></p> 
+                    <p class="totalqtdade"></p>
+                </div>
+                <div class="carrinho">
+                    <p class="total"></p> 
+                    <p class="precoTotal"></p>
+                    </div>
+            </div>  
+        </div>
+    </main>
+
+    <script src="src/js/dataProdutos.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
